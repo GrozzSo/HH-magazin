@@ -1,0 +1,380 @@
+/* setting */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    scroll-behavior: smooth;
+    transition: all .5s, display .5s;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.mt50px {
+    margin-top: 50px;
+}
+
+.mt150px {
+    margin-top: 150px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* setting */
+
+/* fonts  */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Thin.ttf');
+    font-weight: 250;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'LetoSans';
+    src: url('../fonts/LetoSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'LetoSans';
+    src: url('../fonts/LetoSans-Thin.ttf');
+    font-weight: 250;
+}
+
+@font-face {
+    font-family: 'SimeizLight';
+    src: url('../fonts/SimeizLight Light.ttf');
+    font-weight: 300;
+}
+
+/* fonts  */
+
+
+
+/*administration*/
+.administration-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+.administration-img img {
+    width: 120px;
+    height: 120px;
+}
+
+
+.administration {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.administration-inf a {
+    display: inline-block;
+    margin: 10px 0;
+    border: 2px solid #ec8ea6;
+    border-radius: 10px;
+    padding: 10px 25px;
+
+}
+
+.administration-inf a:hover {
+    background-color: #ec8ea6;
+    color: white;
+}
+
+.administration-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.administration-dan {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px
+}
+
+/*administration*/
+
+/*btn add tovar*/
+
+.add-tovar {
+    margin-bottom: 25px;
+}
+
+.add {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    text-decoration-line: underline;
+    color: #DECACF;
+
+}
+
+.add:hover {
+    color: #ec8ea6;
+}
+
+/*btn add tovar*/
+
+
+.catalog-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.catalog-inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.catalog-ops {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.catalog-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+
+}
+
+.catalog-nav {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 77px;
+    align-items: center;
+}
+
+.catalog-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    padding: 13px 26px;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.catalog-btn:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+
+/*catalog*/
+.tov{
+    max-width: 300px;
+}
+.tov p {
+    margin-top: 10px;
+    max-width: 300px;
+    
+}
+
+.krud {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.krud a{
+    padding: 10px 23px;
+    border: 1px solid #ec8ea6;
+    border-radius: 5px;
+
+}
+
+.zagtovv {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+    margin-left: 5px;
+    max-width: 100px;
+}
+
+.podzagtov {
+    display: inline-block;
+    max-width: 300px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+    margin-left: 5px;
+}
+
+.tsena {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+    margin-left: 5px;
+}
+
+/*users*/
+.users-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.users-flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px; */
+}
+
+.users-flex table {
+    width: 650px;
+    border-top: 3px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px; */
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+    border: 3px solid black;
+
+
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+
+
+}
+
+.users-flex a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EA0505;
+}
+
+/*users*/
+
+/*------------------------------------------MOBILE---------------------------------------*/
+@media screen and (max-width: 393px) {
+
+    .administration-img img {
+        width: 100px;
+    }
+
+    .administration-name {
+        font-size: 25px;
+    }
+
+    .administration-dan {
+        font-size: 20px;
+    }
+
+    .users-flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #EA0505;
+        border-radius: 15px;
+        padding: 15px;
+    }
+}
